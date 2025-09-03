@@ -1,0 +1,109 @@
+
+@media only screen and (min-width: 1px){
+
+body{
+    font-family:  "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+.header{
+    background-color: #4fb835;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    line-height: 1.6;
+    
+}
+
+.nav1{
+    
+    background-color:#064E3B;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.nav1 ul{
+
+    gap: 70px;
+    display: flex;
+        list-style-type: none;
+        text-decoration: none;
+}
+
+.nav1 a{
+   
+    color: white;
+    text-decoration: none;
+}
+
+.nav1 a:hover {
+      color: #63aa89;
+    }
+
+
+.middle{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin: auto;
+   
+}
+
+
+.middle h3{
+    color: #16A34A;
+}
+
+.middle a{
+    width: 350px;
+    height: 160px;
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+
+.middle a:hover{
+    padding: 5px ;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      border-radius: 10px;
+      
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    width: 80%;
+  margin: auto;
+
+}
+
+.container .card{
+    padding: 15px ;
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+    background-color: rgb(231, 227, 227);
+   /* width: 50%; */
+}
+.container .card:hover{
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+
+.container .card h3{
+    color:#16A34A
+}
+
+
+
+
+
+footer{
+    background-color:#064E3B;
+    color: white;
+    margin: 40px 0px 0px;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.6;
+}
+}
